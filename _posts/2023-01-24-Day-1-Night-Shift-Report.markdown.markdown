@@ -37,3 +37,30 @@ Well folks, what a night it's been. We saw a lot, so let's get summarising! This
 - Malin Hsu hit a Grand Slam for the worms in the 7th, helping them take and keep the lead on the Fridays: **3-6**
 - Crabs/Tigers went to the 13th inning, Crabs scoring in the top and the Tigers missing out for a **2-1**
 - Dale/Thieves ended with Zephyr staying on the Thieves, and the scores at **3-5**
+
+### Day 17 - Solar Eclipse (Silver)
+
+- We kicked the day off to a good start, scoring three points in the first inning, with the Garages scoring 1; This game is going to be a fight. The Garages came to one behind in the 5th, but Magic went speeding ahead in the 6th and 7th to round out the game at a healthy **12-7**
+
+#### In Other Games:
+
+- Marco Stink was burped from a black hole and landed in the Steaks
+- The Wild Wings puled off a very close game against the Tokyo Lift, with the final score being **23-2**
+- The Miami Dale beat out the Shoe Thieves **1-0**, meaning they gain Zephyr McCloud for their lineup!
+
+### In Memorium:
+
+- We regret to announce the Incineration of Velasquez Alstott from the Hades Tigers. A Fire Eater in times gone by, they are succeeded by Hana Wildebeest
+
+### Day 18 - Solar Eclipse (Blue)
+
+- The final game of the Garages season gets off to a great start, pulling three points in the first inning again, with another four in the second! With a stellar performance from the rest of the team to the end, the final score was **11-3** for a Magic Sweep
+
+#### In Other Games:
+
+- Letitia Drop of the Wings has been Knighted. They embark on a Side Quest (I hope it's Gwent)
+- Zephyr stays on the Dale (**8-1** wow, what a score), presumably for some good party vibes!
+
+And with that, I sign off reporting for the Night. An eventful time, with our first incineration of the New Blaseball and some good plays by Magic. Can we continue this streak or will the Wednesday Woes get us as usual?
+
+-Catfish
