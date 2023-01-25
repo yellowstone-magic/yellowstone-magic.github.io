@@ -68,3 +68,22 @@ Well, night shift are here once again going into Wednesday; A historically upset
 It's time for a snooze! As ends to night shift go that's a pretty definitive one, so I will leave it there. Next up is a Series against the Atlantis Georgias and I think that'll be a hard fight. 
 
 All that remains is for me to thank you for reading this, remind you that you matter, <sup>also remind you to drink water</sup>, and have a good day!
+
+***
+
+# Night Shift Continues Baybee!
+
+## YELL-ATL
+
+### Day 40 - Solar Eclipse (Blue)
+
+- This reporter tried to get out, but the game pulled them back in. A phenomenal game, rapid fire scoring, Abbott scoring a Home run, Vernon with a double. Runs in the last inning just to show off! The game came down to an amazing **15-5**
+
+#### Can't Lose Watch
+
+- Jenkins stays on the Garages
+- Zephyr moves to the Flowers, will they jump back again next game?
+
+#### In Other Games
+
+- Muna Sichantha from the Lovers is sent on a side quest. They are not replaced...
