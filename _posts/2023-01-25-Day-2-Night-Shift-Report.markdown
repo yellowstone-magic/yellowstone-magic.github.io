@@ -87,3 +87,5 @@ All that remains is for me to thank you for reading this, remind you that you ma
 #### In Other Games
 
 - Muna Sichantha from the Lovers is sent on a side quest. They are not replaced...
+- JAZZ/FRI went to the 12th in 4-4, but in the 13th the Fridays scored an amazing 4 points bringing the final score to **4-8**
+- In the same game the Black Hole burped Basilio Fig onto the pitch, who crashed into the Fridays, sending Mags Highlife flying and replacing them in the lineup
