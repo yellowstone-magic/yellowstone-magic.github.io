@@ -56,7 +56,7 @@ Well, night shift are here once again going into Wednesday; A historically upset
 
 ### Day 39 - Horizon
 
-- Magic got off to a great start, first on the board in the XXXX inning, but can Twooney keep that momentum going and break the series tie. Strong hits from Jelly and O'Possum in the 3rd, followed by Twooney striking three batters out in a row brings it to 4-0. Point after point in the 4th, and Twooney tries to keep them down, but a home run from Kajjala Aliyev prevents a shutout. The Beams fought well, scoring points inning after inning, but in a mirror of the last game is wasn't enough, leaving it a **9-6**
+- Magic got off to a great start, first on the board in the 2nd inning, but can Twooney keep that momentum going and break the series tie. Strong hits from Jelly and O'Possum in the 3rd, followed by Twooney striking three batters out in a row brings it to 4-0. Point after point in the 4th, and Twooney tries to keep them down, but a home run from Kajjala Aliyev prevents a shutout. The Beams fought well, scoring points inning after inning, but in a mirror of the last game is wasn't enough, leaving it a **9-6**
 
 #### Can't Lose Watch
 
