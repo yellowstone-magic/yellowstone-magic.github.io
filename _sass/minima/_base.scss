@@ -17,6 +17,7 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
+  background: url("/assets/theme/bg.webp");
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -103,15 +104,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $yell-red;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($yell-red, 15%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $yell-yellow;
     text-decoration: underline;
   }
 
@@ -151,7 +152,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #121212;
 }
 
 code {
@@ -179,8 +180,12 @@ pre {
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding: $spacing-unit $spacing-unit*2;
+  flex: 1;
+
+  background-color: $background-color;
+  border-bottom: 1px solid $yell-yellow;
+
   @extend %clearfix;
 
   @include media-query($on-laptop) {
