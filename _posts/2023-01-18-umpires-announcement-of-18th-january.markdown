@@ -4,6 +4,7 @@ title:  "Umpires announcement of 18th January"
 date:   2023-01-18 19:33:08 +0100
 category: Event reporting
 author: trucy
+thumbnail: event_reporting
 ---
 
 ![BEHOLD]({{ site.baseurl }}/assets/2023-01-18/1.png)

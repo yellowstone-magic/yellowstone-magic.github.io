@@ -4,6 +4,7 @@ title:  "Umpires announcement of 23rd January"
 date:   2023-01-23 18:58:00 +0100
 category: Event reporting
 author: trucy
+thumbnail: event_reporting
 ---
 
 ![THE TOURNAMENT OF CHAMPIONS IS COMING]({{ site.baseurl }}/assets/2023-01-23/1.png)

@@ -4,6 +4,7 @@ title:  "Scythe - A Book Review by Sky"
 date:   2023-01-30 21:00:00 +0000
 category: Book Review
 author: Sky
+thumbnail: book_report
 ---
 
 Hello Magic! My name is Sky, aka TheSkyDomain and today I have brought to you a…

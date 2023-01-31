@@ -4,6 +4,7 @@ title:  "Welcome to the Yellowstone Magic fanwobsite!"
 date:   2023-01-20 19:50:11 +0100
 category: meta
 author: trucy
+thumbnail: meta
 ---
 Ain’t that neat, huh?
 
