@@ -14,16 +14,18 @@ $text-color:       #CCC !default;
 $background-color: #222 !default;
 $brand-color:      #dc3b5e !default;
 $yell-red: #dc3b5e !default;
+$yell-red-darken: #dc3b5e10;
 $yell-yellow: rgb(234, 203, 1) !default;
 
-$grey-color:       #828282 !default;
+$grey-color:       #222 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-dark:  darken($grey-color, 1%) !default;
+$grey-color-dark-alpha: rgba(12.2, 12.2, 12.2, 0.8);
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1024px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;

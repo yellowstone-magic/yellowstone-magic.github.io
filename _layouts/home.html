@@ -1,34 +1,55 @@
 ---
 layout: default
 ---
-
+<h1>Yellowstone Magic News Archive</h1>
+<div class="featured-post">
+  {% for post in site.posts limit:1 %}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+  <div class="splash-img">
+    {% if post.thumbnail > "" %}
+    <img src="/assets/theme/{{ post.thumbnail }}.webp" alt/>
+    {% else %}
+    <img src="/assets/theme/splash.webp" alt/>
+    {% endif %}
+  </div>
+  <div class="featured-post-info">
+    <h2>Latest Post</h2>
+    <span class="post-meta">{{ post.category }} - {{ post.date | date: date_format }}</span>
+    <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  </div>
+  {% endfor %}
+</div>
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
   {{ content }}
+  <h2>Recent Posts by Category</h2>
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  <div class="category-panels-wrapper">
+  {% for category in site.categories %}
+    {% assign loopindex = forloop.index %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div class="category-panel" data-index="{{ loopindex }}">
+      <h3>{{ category_name }}</h3>
+      <ul>
+      {% for post in site.categories[category_name] limit:3 %}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h4>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h4>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+      {% endfor %}
+      </ul>
+      <a href="/categories/#{{ category_name | slugize }}" class="category-link">View All</a>
+    </div>
+  {% endfor %}
+  </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
