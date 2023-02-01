@@ -4,7 +4,7 @@ title: About/Contributing
 permalink: /about/
 ---
 
-This is an official(?) wobsite for the Yellowstone Magic Blaseball fans!
+This is the Yellowstone Magic Grimoire, a website for, and by some Blaseball fans!
 
 It is currently maintained by trucy via the Yellowstone Magic repository:
 [https://github.com/yellowstone-magic/yellowstone-magic.github.io](https://github.com/yellowstone-magic/yellowstone-magic.github.io)
