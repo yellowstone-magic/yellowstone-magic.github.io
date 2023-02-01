@@ -6,9 +6,15 @@
         {% if post.thumbnail > "" %}
         <img src="/assets/theme/{{ post.thumbnail }}.webp" alt/>
         {% else %}
-        <img src="/assets/theme/splash.webp" alt/>
+          {% unless post.categories == empty %}
+            {%for categories in post.categories %}
+              <img src="/assets/theme/{{ categories | slugify }}.webp" alt />
+            {% endfor %}
+          {% else %}
+          <img src="/assets/theme/splash.webp" alt />
+          {% endunless %}
         {% endif %}
-    </div>
+      </div>
     <div class="featured-post-info">
         <h2>Latest Post</h2>
         <span class="post-meta">

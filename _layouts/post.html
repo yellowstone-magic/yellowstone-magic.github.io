@@ -8,7 +8,13 @@ layout: default
       {% if page.thumbnail > "" %}
       <img src="/assets/theme/{{ page.thumbnail }}.webp" alt/>
       {% else %}
-      <img src="/assets/theme/splash.webp" alt/>
+        {% unless page.categories == empty %}
+          {%for categories in page.categories %}
+            <img src="/assets/theme/{{ categories | slugify }}.webp" alt />
+          {% endfor %}
+        {% else %}
+        <img src="/assets/theme/splash.webp" alt />
+        {% endunless %}
       {% endif %}
     </div>
     <div class="featured-post-info">

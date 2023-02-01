@@ -4,7 +4,7 @@ title:  "Day 1 - Night Shift Report"
 date:   2023-01-24 10:00:00 +0000
 category: Game reporting
 author: Catfish
-thumbnail: night_shift
+thumbnail: night-shift
 ---
 
 # Season 2, night shift
