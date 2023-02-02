@@ -8,7 +8,7 @@ thumbnail: [insert thumbnail?]
 ---
 Hey, it is Sky, A.K.A. TheSkyDomain! Starting today and every week following, I am going to be writing a weekly column titled:
 
-                                        ***|Pokémon of the Week|***
+***|Pokémon of the Week|***
 
 Pokémon is a great aspect of my life and overall online presence (if you have not noticed, my Discord profile picture is my own Umbreon character named Yoru!) I am very excited to write this column and I hope you all will be looking forwards to it! I *hope* to be able to write this every Wednesday but I am not going to limit myself as I am a busy college student after all, but I am sure I will usually have the time to do it! 
 Anyways with the intro and formalities at the way (and if you somehow did not see the title) the **Pokémon of the Week** is....
