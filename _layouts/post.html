@@ -3,25 +3,36 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {% unless page.categories == empty %}
+      {%for categories in page.categories | first %}
+        {% capture category_name %}{{ categories }}{% endcapture %}
+        {% capture category_slug %}{{ categories | slugify }}{% endcapture %}
+      {% endfor %}
+    {% endunless %}
   <header class="post-header">
+
     <div class="splash-img">
-      {% if page.thumbnail > "" %}
-      <img src="/assets/theme/{{ page.thumbnail }}.webp" alt/>
+      {% capture date_folder %}{{ page.date | date: '%F' }}{% endcapture %}
+      {% assign path = '/assets/' | append: date_folder | append: '/' | append: page.thumbnail  %}
+      {% assign file_exists = site.static_files | where: "path", path  %}
+      {% if file_exists.size != 0 %}
+          <img src="{{ path }}" alt />
       {% else %}
-        {% unless page.categories == empty %}
-          {%for categories in page.categories %}
-            <img src="/assets/theme/{{ categories | slugify }}.webp" alt />
-          {% endfor %}
-        {% else %}
-        <img src="/assets/theme/splash.webp" alt />
-        {% endunless %}
+          {% assign path = '/assets/theme/' | append: category_slug | append: ".webp"  %}
+          {% assign file_exists = site.static_files | where: "path", path  %}
+          {% if file_exists.size != 0 %}
+              <img src="{{ path }}" alt />
+          {% else %}
+              <img src="/assets/theme/splash.webp" alt />
+          {% endif %}
       {% endif %}
     </div>
+
     <div class="featured-post-info">
       <span class="post-meta">
         {% unless page.categories == empty %}
           {%for categories in page.categories %}
-            <a href="/categories/#{{ categories | slugize }}">{{ categories }}</a> >
+            <a href="/categories/#{{ category_slug }}">{{ category_name }}</a> >
           {% endfor %}
         {% endunless %}
         {%- if page.author -%}
