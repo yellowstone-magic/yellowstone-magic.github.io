@@ -4,7 +4,6 @@ title:  "What? The wobsite is evolving?"
 date:   2023-01-31 19:01:11 +0100
 category: Meta
 author: trucy
-thumbnail: meta
 ---
 
 It’s been a week, huh? After Magic getting in the postseason, playing against

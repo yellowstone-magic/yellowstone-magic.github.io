@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Day 1 - Night Shift Report"
-date:   2023-01-24 10:00:00 +0000
+date:   2023-02-24 10:00:00 +0000
 category: Game reporting
 author: Catfish
-thumbnail: night-shift
+thumbnail: night-shift.webp
 ---
 
 # Season 2, night shift
