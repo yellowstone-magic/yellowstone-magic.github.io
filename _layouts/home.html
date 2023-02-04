@@ -1,25 +1,8 @@
 ---
 layout: default
 ---
-<h1>Yellowstone Magic News Archive</h1>
-<div class="featured-post">
-  {% for post in site.posts limit:1 %}
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-  <div class="splash-img">
-    {% if post.thumbnail > "" %}
-    <img src="/assets/theme/{{ post.thumbnail }}.webp" alt/>
-    {% else %}
-    <img src="/assets/theme/splash.webp" alt/>
-    {% endif %}
-  </div>
-  <div class="featured-post-info">
-    <h2>Latest Post</h2>
-    <span class="post-meta">{{ post.category }} - {{ post.date | date: date_format }}</span>
-    <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  </div>
-  {% endfor %}
-</div>
+<h1>Welcome to the Yellowstone Magic Grimoire</h1>
+{% include landing-posts-slider.html %}
 <div class="home">
   {{ content }}
   <h2>Recent Posts by Category</h2>

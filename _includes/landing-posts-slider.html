@@ -1,0 +1,49 @@
+<div class="featured-post">
+    {% for post in site.posts limit:1 %}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {% unless post.categories == empty %}
+      {%for categories in post.categories | first %}
+        {% capture category_name %}{{ categories }}{% endcapture %}
+        {% capture category_slug %}{{ categories | slugify }}{% endcapture %}
+      {% endfor %}
+    {% endunless %}
+    
+    <div class="splash-img">
+      {% capture date_folder %}{{ post.date | date: '%F' }}{% endcapture %}
+      {% assign path = '/assets/' | append: date_folder | append: '/' | append: post.thumbnail  %}
+      {% assign file_exists = site.static_files | where: "path", path  %}
+      {% if file_exists.size != 0 %}
+          <img src="{{ path }}" alt />
+      {% else %}
+          {% assign path = '/assets/theme/' | append: category_slug | append: ".webp"  %}
+          {% assign file_exists = site.static_files | where: "path", path  %}
+          {% if file_exists.size != 0 %}
+              <img src="{{ path }}" alt />
+          {% else %}
+              <img src="/assets/theme/splash.webp" alt />
+          {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="featured-post-info">
+        <h2>Latest Post</h2>
+
+        <span class="post-meta">
+          {% if category_name != empty %}
+              <a href="/categories/#{{ category_slug }}">{{ category_name }}</a> >
+          {% else %}
+              Uncategorized >
+          {% endif %}
+          {%- if post.author -%}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Posted by: {{ post.author }}</span></span> -
+          {%- endif -%}
+          <time class="dt-published" datetime="{{ poast.date | date_to_xmlschema }}" itemprop="datePublished">
+              {{ post.date | date: date_format }}
+          </time>
+        </span>
+        
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
+    {% endfor %}
+</div>
+<script src="/js/landing-posts-slider.js"></script>

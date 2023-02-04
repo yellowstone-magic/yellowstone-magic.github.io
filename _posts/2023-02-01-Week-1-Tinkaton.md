@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "PotW Week 1 - Tinkaton "
-date:  2023-01-02 00:00:00 +0000
+date:  2023-02-01 00:00:00 +0000
 category: Pokémon of the Week
 author: Sky
 thumbnail: meta
