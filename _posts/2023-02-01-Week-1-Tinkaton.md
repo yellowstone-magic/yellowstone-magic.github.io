@@ -4,7 +4,6 @@ title:  "PotW Week 1 - Tinkaton "
 date:  2023-02-01 00:00:00 +0000
 category: Pokémon of the Week
 author: Sky
-thumbnail: meta
 ---
 
 Hey, it is Sky, A.K.A. TheSkyDomain! Starting today and every week following, I am going to be writing a weekly column titled:

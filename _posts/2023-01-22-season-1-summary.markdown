@@ -4,7 +4,6 @@ title:  "Season 1 summary and election results"
 date:   2023-01-22 21:23:11 +0100
 category: Summary
 author: Dharla Day & Virgo
-thumbnail: summary
 ---
 
 Thanks to Dharla Day for the summary of the 1st season of Blaseball, and to Virgo

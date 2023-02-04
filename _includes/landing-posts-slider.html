@@ -15,13 +15,19 @@
       {% if file_exists.size != 0 %}
           <img src="{{ path }}" alt />
       {% else %}
-          {% assign path = '/assets/theme/' | append: category_slug | append: ".webp"  %}
-          {% assign file_exists = site.static_files | where: "path", path  %}
-          {% if file_exists.size != 0 %}
-              <img src="{{ path }}" alt />
-          {% else %}
-              <img src="/assets/theme/splash.webp" alt />
-          {% endif %}
+        {% assign path = '/assets/theme/' | append: post.thumbnail  %}
+        {% assign file_exists = site.static_files | where: "path", path  %}
+        {% if file_exists.size != 0 %}
+            <img src="{{ path }}" alt />
+        {% else %}
+            {% assign path = '/assets/theme/' | append: category_slug | append: ".webp"  %}
+            {% assign file_exists = site.static_files | where: "path", path  %}
+            {% if file_exists.size != 0 %}
+                <img src="{{ path }}" alt />
+            {% else %}
+                <img src="/assets/theme/splash.webp" alt />
+            {% endif %}
+        {% endif %}
       {% endif %}
     </div>
 
@@ -46,4 +52,3 @@
     </div>
     {% endfor %}
 </div>
-<script src="/js/landing-posts-slider.js"></script>
